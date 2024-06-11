@@ -4,7 +4,7 @@ int main(){
     int n , cnt = 0;
     printf("enter a value : ");
     scanf("%d",&n);
-
+    
     printf("factors of %d are :  ", n );
     for (int i = 1 ; i <= n ; i++){
         if ( n % i == 0 ){
